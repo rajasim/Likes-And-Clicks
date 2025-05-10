@@ -23,9 +23,7 @@ function Metro() {
           <li><b>Home</b></li>
           <li><b>About</b></li>
           <li><b>Blocks</b></li>
-          <li><b>Patterns</b></li>
-          <li><b>Templates</b></li>
-          <li><b>Shop</b></li>
+          
           <li><b>Contact</b></li>
           
         </ul>
