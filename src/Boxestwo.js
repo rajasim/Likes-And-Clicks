@@ -141,6 +141,14 @@ function Boxtwo() {
             </p>
           </div>
         </div>
+        <div className="enquire-wrapper">
+  <a
+    href="mailto:your-aftabmaldar1201@gmail.com?subject=Service Enquiry&body=I'm interested in your services"
+    className="enquire-button"
+  >
+    Enquire Now
+  </a>
+</div>
       </div>
     </div>
   );

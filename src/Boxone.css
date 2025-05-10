@@ -12,6 +12,30 @@
 .features-container {
   padding: 40px 80px;
 }
+.enquire-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.enquire-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.enquire-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+.enquire-button {
+  text-decoration: none; /* removes underline */
+}
+
 
 .heading {
   font-size: 2.5rem;
