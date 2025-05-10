@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+<script src="https://kit.fontawesome.com/f400a30b41.js" crossorigin="anonymous"></script>
 root.render(
   <React.StrictMode>
     <App />

@@ -1,0 +1,83 @@
+.stack-page {
+    text-align: center;
+    padding: 50px 40px;
+    background: #f6f9f8;
+  }
+  
+  .stack-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .stack-subtitle {
+    font-size: 18px;
+    color: #252121;
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+  }
+  
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px; /* slightly bigger gap */
+    justify-items: center;
+  }
+  
+  .stack-card {
+    width: 100%;
+    max-width: 380px; /* increased from 300px */
+    height: 365px; /* increased from 320px */
+    background: #6db7b7;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+  }
+  
+  .stack-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.819);
+    transform: translateY(-18px);
+  }
+  
+  .stack-icon {
+    font-size: 48px;
+    margin-bottom: 18px;
+  }
+  
+  .stack-heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .stack-description {
+    font-size: 17px;
+    color: #f6f6f6;
+    margin-bottom: 22px;
+  }
+  
+  .stack-button {
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 2px solid #040505;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+  }
+  
+  .stack-button:hover {
+    background-color: #06b6d4;
+    color: #fff;
+    border-color: #06b6d4;
+  }
+  
