@@ -4,7 +4,6 @@ import "./Boxone.css";
 function Boxone() {
   return (
     <div className="features-wrapper">
-     
       <div className="features-container">
         <h1 className="heading">Web Development Essentials Users Appreciate Most</h1>
         <p className="subheading">
@@ -17,7 +16,8 @@ function Boxone() {
           <div className="text-content">
             <h2>Streamlined Site Architecture</h2>
             <p>
-            Our websites feature intuitive, well-structured navigation systems that minimize confusion and maximize efficiency. By prioritizing clarity and simplicity,<br></br>  we help users find what they need quickly — improving session duration, lowering bounce rates, and boosting overall satisfaction.
+              Intuitive navigation reduces confusion and improves usability,<br />
+              helping users find what they need quickly and confidently.
             </p>
           </div>
         </div>
@@ -28,7 +28,8 @@ function Boxone() {
           <div className="text-content">
             <h2>Modern, Responsive Design</h2>
             <p>
-            A visually polished, responsive design is no longer optional — it's expected. We create modern, scalable interfaces that adapt, <br></br> flawlessly to any device ensuring your brand leaves a lasting impression whether viewed on desktop, tablet, or mobile.
+              Our responsive designs look great on any device,<br />
+              ensuring a consistent and engaging user experience.
             </p>
           </div>
         </div>
@@ -39,7 +40,8 @@ function Boxone() {
           <div className="text-content">
             <h2>Strategic Messaging & Positioning</h2>
             <p>
-            Clear, benefit-driven messaging is at the heart of user trust and conversion. We work with you to define and communicate , <br></br> a compelling value proposition that resonates with your target market and reinforces your brand’s unique edge.
+              We craft benefit-driven content that builds trust,<br />
+              aligns with your brand, and speaks to your audience.
             </p>
           </div>
         </div>
@@ -50,7 +52,8 @@ function Boxone() {
           <div className="text-content">
             <h2>Authentic Brand Representation</h2>
             <p>
-            Your story matters. We craft About pages that do more than list facts — they build connection. By sharing your mission, <br></br> values, and team personality, we humanize your brand and establish credibility from the first interaction.
+              Your story matters — we highlight your mission and team<br />
+              to create connection and credibility from first glance.
             </p>
           </div>
         </div>
@@ -61,7 +64,8 @@ function Boxone() {
           <div className="text-content">
             <h2>Social Proof & Case Studies</h2>
             <p>
-            Testimonials, logos, and client stories serve as powerful trust signals. We integrate these elements thoughtfully <br></br> to demonstrate your experience,  reinforce credibility, and give potential clients confidence in your capabilities.
+              We showcase testimonials and case studies to prove value,<br />
+              build trust, and support conversion.
             </p>
           </div>
         </div>
@@ -72,20 +76,20 @@ function Boxone() {
           <div className="text-content">
             <h2>SEO-Driven, Value-Rich Content</h2>
             <p>
-            Great design needs great content. We create and structure content to support both user intent and SEO best practices. Whether it's <br></br> service pages, blogs, or thought leadership, your site becomes a high-performing resource that builds authority and drives results.
+              Our content strategy blends SEO with clarity,<br />
+              turning your site into a high-performing resource.
             </p>
           </div>
-          
-          
         </div>
+
         <div className="enquire-wrapper">
-  <a
-    href="mailto:your-aftabmaldar1201@gmail.com?subject=Service Enquiry&body=I'm interested in your services"
-    className="enquire-button"
-  >
-    Enquire Now
-  </a>
-</div>
+          <a
+            href="mailto:your-aftabmaldar1201@gmail.com?subject=Service Enquiry&body=I'm interested in your services"
+            className="enquire-button"
+          >
+            Enquire Now
+          </a>
+        </div>
       </div>
     </div>
   );
