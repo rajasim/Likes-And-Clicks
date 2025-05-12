@@ -11,7 +11,7 @@ function Boxes() {
         <img src="/wd.jpeg" alt="Blocks" className="box-icon" />
         <h2>Web development</h2>
         <p>
-          The <strong>Organic Blocks</strong> plugin includes <strong>20 premium blocks</strong> for creating amazing content. Each block is showcased in <strong>STAX</strong>.
+          The <strong>Organic Blocks</strong> plugin includes <strong>20 premium blocks</strong> for creating amazing content. Each block is showcased in <strong>L&C</strong>.
         </p>
         <button 
           className="box-button" 
