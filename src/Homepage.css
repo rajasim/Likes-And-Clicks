@@ -106,4 +106,59 @@
     border-radius: 5px;
     font-weight: bold;
   }
+  @media (max-width: 480px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 15px;
+    }
+  
+    .logo {
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .hero-content {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 15px;
+      text-align: center;
+      transform: translateY(140px);
+    }
+  
+    .hero-text {
+      max-width: 100%;
+    }
+  
+    .hero-text h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+  
+    .hero-text p {
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+  
+    .get-started-btn,
+    .buy-btn {
+      padding: 10px 14px;
+      font-size: 13px;
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .get-started-btn {
+      margin: 0 auto;
+    }
+  }
   
