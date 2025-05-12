@@ -29,7 +29,7 @@ function Custome() {
       style={{ width: "100%", height: "fit-content", overflow: "hidden" }}
       ref={aboutusRef}
     >
-      <div className="custom-section">
+      <div className="custom-section" id="custom-section">
         <div className="custom-section-content">
           <h1>
             Likes &<br />

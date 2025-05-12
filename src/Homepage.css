@@ -56,6 +56,12 @@
     cursor: pointer;
     font-weight: 500;
     color: black;
+    
+    
+  }
+  .nav-links li a {
+    text-decoration: none;
+    color: rgb(1, 0, 0);
   }
   
   .buy-btn {

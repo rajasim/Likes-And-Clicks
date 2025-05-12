@@ -9,7 +9,7 @@ function Stackpage() {
         Likes and Clicks, we offer a comprehensive suite of services designed to elevate your digital footprint and ensure your online success. Our expertise spans across web development, where we craft engaging and functional websites tailored to your unique needs.
       </p>
 
-      <div className="stack-grid">
+      <div className="stack-grid" id='stack-grid'>
 
         <div className="stack-card">
           <div className="stack-icon"><i className="fa-brands fa-slideshare"></i></div>

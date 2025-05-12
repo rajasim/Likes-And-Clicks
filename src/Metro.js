@@ -3,16 +3,18 @@ import "./Homepage.css";
 
 function Metro() {
   const herotextref = useRef();
+  const linkref = useRef();
+  
 
   useEffect(() => {
     if (herotextref.current) {
       herotextref.current.style.transform = "translateX(25px)";
-      herotextref.current.style.transition = "transform 1s linear";
+      herotextref.current.style.transition = "transform 2.0s linear";
     }
   }, []);
   return (
     <div
-      className="homepage"
+      className="homepage" id="homepage"
       style={{
         backgroundImage: "url('/ho.jpeg')",
         backgroundSize: "cover",
@@ -27,19 +29,20 @@ function Metro() {
 
       <nav className="navbar">
         <div className="logo">LIKES & CLICKS</div>
-        <ul className="nav-links">
+        <ul className="nav-links" ref={linkref}>
           <li>
-            <b>Home</b>
+          {" "}
+          <a href="#homepage"><b>Home</b></a>
           </li>
           <li>
-            <b>About</b>
+          <a href="#custom-section"><b>About Us</b></a>
           </li>
           <li>
-            <b>Blocks</b>
+          <a href="#stack-grid"><b>Blocks</b></a>
           </li>
 
           <li>
-            <b>Contact</b>
+          <a href="#contact-page"><b>Contact</b></a>
           </li>
         </ul>
       </nav>

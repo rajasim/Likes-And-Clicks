@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className="contact-page">
+    <div className="contact-page " id='contact-page'>
       <div className="contact-header">
         <h1>Contact Us</h1>
         <p>Likes & Clicks</p>
