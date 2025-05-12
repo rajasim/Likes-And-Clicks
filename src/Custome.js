@@ -8,7 +8,6 @@ function Custome() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const div = entry.target.querySelector("div");
-          console.log(div);
           div.style.transform = "translateX(0px)";
           div.style.transition = "transform 2s linear";
 
