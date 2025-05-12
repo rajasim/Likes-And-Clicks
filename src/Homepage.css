@@ -1,109 +1,110 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .homepage {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    
-    background-size: cover;
-    background-position: center;
-    color: white;
-  }
-  
-  /* Dark overlay */
-  .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    
-    top: 0;
-    left: 0;
-  }
-  
-  /* Navbar */
-  .navbar {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 19px 50px;
-    z-index: 2;
-  }
-  
-  .logo {
-    font-size: 32px;
-    font-weight: bold;
-    color: black;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-  
-  .nav-links li {
-    cursor: pointer;
-    font-weight: 500;
-    color: black;
-  }
-  
-  .buy-btn {
-    padding: 8px 16px;
-    border: 2px solid rgb(0, 0, 0);
-    background: transparent;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border-radius: 4px;
-    font-weight: 600;
-  }
-  
-  /* Hero Section */
-  .hero-content {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 0 50px;
-  }
-  
-  .hero-text {
-    max-width: 600px;
-    color: black;
-  }
-  
-  .hero-text h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-    color: black;
-  }
-  
-  .hero-text p {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: black;
-  }
-  
-  .get-started-btn {
-    padding: 12px 24px;
-    background-color: #00c48c;
-    color: white;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.homepage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 50px;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+  color: black;
+}
+
+.buy-btn {
+  padding: 8px 16px;
+  border: 2px solid rgb(0, 0, 0);
+  background: transparent;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+.hero-text {
+  transform: translateX(1920px);
+  max-width: 600px;
+  color: black;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: black;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.get-started-btn {
+  padding: 12px 24px;
+  background-color: #00c48c;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
