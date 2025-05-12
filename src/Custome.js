@@ -9,7 +9,7 @@ function Custome() {
         if (entry.isIntersecting) {
           const div = entry.target.querySelector("div");
           div.style.transform = "translateX(0px)";
-          div.style.transition = "transform 2s linear";
+          div.style.transition = "transform 1s linear";
 
           observer.unobserve(div);
         }
