@@ -25,7 +25,7 @@ function Boxes() {
         <img src="/cs.jpeg" alt="Patterns" className="box-icon" />
         <h2>Cyber security</h2>
         <p>
-          <strong>STAX</strong> includes a large collection of patterns. A pattern is a group of blocks organized in a unique layout for a specific purpose.
+          <strong>L&C</strong> includes a large collection of patterns. A pattern is a group of blocks organized in a unique layout for a specific purpose.
         </p>
         <button 
           className="box-button"
@@ -39,7 +39,7 @@ function Boxes() {
         <img src="/market.jpeg" alt="Templates" className="box-icon" />
         <h2>Marketing</h2>
         <p>
-          <strong>STAX</strong> features a variety of useful page templates. Templates provide a great starting place for adding patterns and blocks.
+          <strong>L&C</strong> features a variety of useful page templates. Templates provide a great starting place for adding patterns and blocks.
         </p>
         <button 
           className="box-button"
