@@ -75,13 +75,13 @@ const nav = useNavigate();
                 <a onClick={()=>nav("/Boxone")}>Web development</a>
               </li>
               <li>
-                <a href="#continuous-fryer">Cyber security</a>
+                <a onClick={()=>nav("/Boxtwo")}>Cyber security</a>
               </li>
                 <li>
-                <a href="#continuous-fryer">Marketing</a>
+                <a onClick={()=>nav("/Boxthree")}>Marketing</a>
               </li>
                 <li>
-                <a href="#continuous-fryer">AI Development</a>
+                <a onClick={()=>nav("/Boxfour")}>AI Development</a>
               </li>
             </ul>
           </li>
