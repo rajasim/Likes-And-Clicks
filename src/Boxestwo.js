@@ -12,7 +12,7 @@ function Boxtwo() {
 
         {/* Section 1 */}
         <div className="content-section bg-light">
-          <img src="/cs1.1.jpeg" alt="Cybersecurity" className="feature-image" />
+          <img src="/c1.1.jpg" alt="Cybersecurity" className="feature-image" />
           <div className="text-content">
             <h2>Cybersecurity & Data Protection</h2>
             <p>
@@ -24,7 +24,7 @@ function Boxtwo() {
 
         {/* Section 2 */}
         <div className="content-section reverse bg-dark">
-          <img src="/cs1.2.jpeg" alt="Cloud Services" className="feature-image" />
+          <img src="/c1.2.jpg" alt="Cloud Services" className="feature-image" />
           <div className="text-content">
             <h2>Cloud Services & Backup</h2>
             <p>

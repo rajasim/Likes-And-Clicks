@@ -1,25 +1,33 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Homepage.css";
+import { ChevronDown } from "lucide-react";
 
 function Metro() {
   const herotextref = useRef();
   const linkref = useRef();
-  
+  const [navbarheight, setNavbarHeight] = useState(0);
+  const navbarref = useRef();
 
   useEffect(() => {
     if (herotextref.current) {
       herotextref.current.style.transform = "translateX(25px)";
       herotextref.current.style.transition = "transform 2.0s linear";
     }
+    if (navbarref.current) {
+      setNavbarHeight(navbarref.current.clientHeight);
+    }
   }, []);
+
+  const dropdownMenu = useRef();
+
   return (
     <div
-      className="homepage" id="homepage"
+      className="homepage"
+      id="homepage"
       style={{
-        backgroundImage: "url('/ho.jpeg')",
+        backgroundImage: "url('/hoo.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "105vh",
         width: "98%",
         position: "relative",
         color: "white",
@@ -27,38 +35,104 @@ function Metro() {
     >
       <div className="overlay"></div>
 
+      {/* Navbar */}
       <nav className="navbar">
-        <div className="logo">LIKES & CLICKS</div>
-        <ul className="nav-links" ref={linkref}>
+        <div style={{ padding: 0, backgroundColor: "transparent" }}>
+          <img
+            src="/wd1.6.jpeg"
+            alt="Snactek Logo"
+            className="logo"
+            height={navbarheight}
+            width={navbarheight * 2.5}
+          />
+        </div>
+
+        <ul className="navbar-center" ref={linkref}>
           <li>
-          {" "}
-          <a href="#homepage"><b>Home</b></a>
+            <a href="#home">
+              <strong>Home</strong>
+            </a>
           </li>
-          <li>
-          <a href="#custom-section"><b>About Us</b></a>
+           <li>
+            <a href="#home">
+              <strong>About Us</strong>
+            </a>
           </li>
-          <li>
-          <a href="#stack-grid"><b>Blocks</b></a>
+          
+          <li
+            className="dropdown"
+            onMouseEnter={() => {
+              dropdownMenu.current.style.display = "block";
+            }}
+          >
+            <a href="#frying-machines" className="dropdown-toggle">
+              <strong>Services</strong> <ChevronDown size={14} />
+            </a>
+            <ul
+              className="dropdown-menu"
+              ref={dropdownMenu}
+              onMouseLeave={() => {
+                dropdownMenu.current.style.display = "none";
+              }}
+            >
+              <li>
+              {""}
+                <a href="#web">Web development</a>
+              </li>
+              <li>
+                <a href="#continuous-fryer">Cyber security</a>
+              </li>
+                <li>
+                <a href="#continuous-fryer">Marketing</a>
+              </li>
+                <li>
+                <a href="#continuous-fryer">AI Development</a>
+              </li>
+            </ul>
           </li>
 
+         
+           
+         
+
           <li>
-          <a href="#contact-page"><b>Contact</b></a>
+            <a href="#blog">
+              <strong>Topics</strong>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <strong>Contact Us</strong>
+            </a>
           </li>
         </ul>
+
+        <blockquote>
+          <div style={{ cursor: "pointer", zIndex: 2 }} ref={navbarref}>
+            <a href="#contact" className="cta-button text-white font-bold">
+              GET IN TOUCH →
+            </a>
+          </div>
+
+          
+        </blockquote>
       </nav>
 
+      {/* Hero Section */}
       <div className="hero-content">
         <div className="hero-text" ref={herotextref}>
-          <h1>
-            Likes & Clicks <br />
-            Driving Profit to your Doors
-          </h1>
-          <p>
-            <strong>Likes & Clicks</strong> Likes & Clicks is a dynamic
-            marketing and web development company dedicated to amplifying your
-            online presence and driving tangible results.
-            <strong>Likes & Clickss</strong>.
-          </p>
+          <div class="hero-text">
+  <h1>
+    <span class="fade-in">Likes & Clicks</span><br />
+    <span class="fade-in delay-1">Driving Profit to your Doors</span>
+  </h1>
+  <p class="fade-in delay-2">
+   We are a dynamic
+    marketing and web development company dedicated to amplifying your
+    online presence and driving tangible results.
+    <strong></strong>.
+  </p>
+</div>
           <button className="get-started-btn">Get Started</button>
         </div>
       </div>

@@ -62,8 +62,9 @@
 }
 
 .feature-image {
-  flex: 1;
-  max-width: 400px;
+  
+  width: 450px;
+  height: 380px;
 }
 
 .text-content {
@@ -73,6 +74,7 @@
 .text-content h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
+  
 }
 
 .text-content p {
@@ -87,4 +89,37 @@
 
 .bg-dark {
   background-color: #e3e8edfe;
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-content h2 {
+  animation: slideInLeft 1s ease forwards;
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.text-content p {
+  animation: slideInUp 1s ease forwards;
+  opacity: 0;
+  animation-delay: 0.4s;
 }

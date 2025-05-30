@@ -5,6 +5,7 @@ import Boxes from "./Boxes";
 import Boxone from "./Boxone";
 import Boxestwo from "./Boxestwo";
 import Boxethree from "./Boxethree";
+import Boxfour from "./Boxfour";
 import Stackpage from "./Stackpage";
 import Custome from "./Custome";
 import Footer from "./Footer";
@@ -23,7 +24,7 @@ function App() {
             <>
               <Metro />
               <Boxes />
-              <Custome />
+             
               <Stackpage />
               <Footer />
               
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Boxone" element={<Boxone />} />
         <Route path="/Boxtwo" element={<Boxestwo />} />
         <Route path="/Boxthree" element={<Boxethree />} />
+        <Route  path="/Boxfour" element={<Boxfour />} />
       </Routes>
     </Router>
   );

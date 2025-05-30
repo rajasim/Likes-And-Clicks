@@ -5,7 +5,7 @@ function Boxthree() {
   return (
     <div className="features-wrapper">
       <div className="features-container">
-        <h1 className="heading">Marketing Essentials Users Value Most</h1>
+        <h1 className="heading">Marketing Services Users Value Most</h1>
         <p className="subheading">
           Explore the foundational elements of high-impact marketing that drive visibility, build trust, and convert interest into measurable growth.
         </p>
@@ -24,7 +24,7 @@ function Boxthree() {
 
         {/* Section 2 */}
         <div className="content-section reverse bg-dark">
-          <img src="/mark1.2.jpeg" alt="Design" className="feature-image" />
+          <img src="/mark1.2.jpg" alt="Design" className="feature-image" />
           <div className="text-content">
             <h2>Creative & Consistent Branding</h2>
             <p>

@@ -3,9 +3,9 @@ import "./Boxone.css";
 
 function Boxone() {
   return (
-    <div className="features-wrapper">
+    <div className="features-wrapper" id="web">
       <div className="features-container">
-        <h1 className="heading">Web Development Essentials Users Appreciate Most</h1>
+        <h1 className="heading">We provide all web development services for your business.</h1>
         <p className="subheading">
           Discover what makes a truly effective and modern website. These key features improve user satisfaction, boost trust, and drive long-term performance.
         </p>
@@ -24,7 +24,7 @@ function Boxone() {
 
         {/* Section 2 */}
         <div className="content-section reverse bg-dark">
-          <img src="/wd1.2.jpeg" alt="Design" className="feature-image" />
+          <img src="/w1.2.jpg" alt="Design" className="feature-image" />
           <div className="text-content">
             <h2>Modern, Responsive Design</h2>
             <p>
@@ -36,7 +36,7 @@ function Boxone() {
 
         {/* Section 3 */}
         <div className="content-section bg-light">
-          <img src="/wd1.3.jpeg" alt="Value Proposition" className="feature-image" />
+          <img src="/w1.3.jpg" alt="Value Proposition" className="feature-image" />
           <div className="text-content">
             <h2>Strategic Messaging & Positioning</h2>
             <p>
@@ -48,7 +48,7 @@ function Boxone() {
 
         {/* Section 4 */}
         <div className="content-section reverse bg-dark">
-          <img src="/wd1.4.jpeg" alt="About Us" className="feature-image" />
+          <img src="/w1.5.png" alt="About Us" className="feature-image" />
           <div className="text-content">
             <h2>Authentic Brand Representation</h2>
             <p>
@@ -60,7 +60,7 @@ function Boxone() {
 
         {/* Section 5 */}
         <div className="content-section bg-light">
-          <img src="/wd1.5.jpeg" alt="Clients" className="feature-image" />
+          <img src="/w1.4.jpg" alt="Clients" className="feature-image" />
           <div className="text-content">
             <h2>Social Proof & Case Studies</h2>
             <p>

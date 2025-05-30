@@ -47,6 +47,21 @@ function Boxes() {
         >
           LEARN MARKETING
         </button>
+        
+      </div>
+      <div className="box" id="boxthree">
+        <img src="/Ai.png" alt="Templates" className="box-icon" />
+        <h2>AI Development</h2>
+        <p>
+          <strong>L&C</strong> features a variety of useful page templates. Templates provide a great starting place for adding patterns and blocks.
+        </p>
+        <button 
+          className="box-button"
+          onClick={() => nav("/Boxfour")}
+        >
+          LEARN AI
+        </button>
+        
       </div>
     </div>
   );
