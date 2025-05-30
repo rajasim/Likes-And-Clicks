@@ -1,12 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Homepage.css";
 import { ChevronDown } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 function Metro() {
   const herotextref = useRef();
   const linkref = useRef();
   const [navbarheight, setNavbarHeight] = useState(0);
   const navbarref = useRef();
+const nav = useNavigate();
 
   useEffect(() => {
     if (herotextref.current) {
@@ -24,14 +26,7 @@ function Metro() {
     <div
       className="homepage"
       id="homepage"
-      style={{
-        backgroundImage: "url('/hoo.jpeg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        width: "98%",
-        position: "relative",
-        color: "white",
-      }}
+     
     >
       <div className="overlay"></div>
 
@@ -77,7 +72,7 @@ function Metro() {
             >
               <li>
               {""}
-                <a href="#web">Web development</a>
+                <a onClick={()=>nav("/Boxone")}>Web development</a>
               </li>
               <li>
                 <a href="#continuous-fryer">Cyber security</a>
@@ -135,6 +130,8 @@ function Metro() {
 </div>
           <button className="get-started-btn">Get Started</button>
         </div>
+        <img src="/hoo.jpeg" style={{height:"800px",width:"1300px"}}></img>
+        
       </div>
     </div>
   );
