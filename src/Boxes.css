@@ -1,21 +1,20 @@
 .boxes-section {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-    padding: 60px 30px;
-    background-color: #f7f9f9;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   row-gap: 1rem;
+   column-gap: 1rem;
   }
   
   .box {
     background-color:#100a64; /* box background */
     border-radius: 15px;
-    width: 350px; /* Increased Width */
+    width: 100%; /* Increased Width */
     padding: 30px; /* Increased Padding */
     text-align: center;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
     border: 2px solid #c48b18;
+    height: 100%;
   }
   
   .box:hover {
