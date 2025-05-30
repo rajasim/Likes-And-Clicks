@@ -130,7 +130,7 @@ const nav = useNavigate();
 </div>
           <button className="get-started-btn">Get Started</button>
         </div>
-        <img src="/hoo.jpeg" style={{height:"800px",width:"1300px"}}></img>
+        <img src="/hoo.jpeg" style={{height:"700px",width:"1300px"}}></img>
         
       </div>
     </div>
