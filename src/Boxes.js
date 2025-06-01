@@ -6,7 +6,7 @@ function Boxes() {
   const nav = useNavigate();
 
   return (
-    <div className="boxes-section">
+    <div className="boxes-section" id="boxes-section">
       <div className="box" id="boxone">
         <img src="/wd.jpeg" alt="Blocks" className="box-icon" />
         <h2>Web development</h2>

@@ -35,10 +35,12 @@
     display: flex;
     background-color: #1c1c1e;
     padding: 2rem;
+    justify-content: space-between;
+   
   }
   
   .contact-info {
-    flex: 1;
+    
     padding-right: 2rem;
   }
   
@@ -61,7 +63,7 @@
   }
   
   .map-section {
-    flex: 1;
+   
   }
   
   .map-section img {

@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
 body {
@@ -60,6 +60,7 @@ body {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.833);
   width: 100%;
+  cursor: pointer;
 }
 
 .navbar div {
@@ -92,10 +93,12 @@ body {
   display: flex;
   gap: 3rem;
   list-style: none;
+  cursor: pointer;
 }
 
 .navbar-center li {
   list-style: none;
+ 
 }
 
 .navbar-center li a {

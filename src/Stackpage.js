@@ -3,7 +3,7 @@ import './Stackpage.css';
 
 function Stackpage() {
   return (
-    <div className="stack-page">
+    <div className="stack-page" id="stack">
       <h1 className="stack-title">OUR SERVICES</h1>
       <p className="stack-subtitle">
         Likes and Clicks, we offer a comprehensive suite of services designed to elevate your digital footprint and ensure your online success. Our expertise spans across web development, where we craft engaging and functional websites tailored to your unique needs.

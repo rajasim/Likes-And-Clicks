@@ -59,9 +59,17 @@ Level 1, 123 Pitt Street, Sydney NSW 2000, Australia</p>
           </p>
           </div>
         </div>
-        <div className="map-section">
-          <img src="/likesfooter.png" alt="Locations Map" />
-        </div>
+      <div className="map-section">
+  <video
+    src="/video/footerl.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    controls
+    style={{ width: "500px",height:"500px"}}
+  />
+</div>
       </div>
     </div>
   );
