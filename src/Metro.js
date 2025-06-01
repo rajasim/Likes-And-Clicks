@@ -36,7 +36,7 @@ function Metro() {
       <nav className="navbar">
         <div style={{ padding: 0, backgroundColor: "transparent" }}>
           <img
-            src="/wd1.6.jpeg"
+            src="/logol.png"
             alt="Snactek Logo"
             className="logo"
             height={navbarheight}
